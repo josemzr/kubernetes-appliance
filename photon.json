@@ -27,7 +27,7 @@
       "http_directory": "http",
       "remote_type": "esx5",
       "remote_host": "{{ user `builder_host` }}",
-      "remote_datastore": "{{ user `builder_host_datastore` }}",
+      "remote_datastore": "datastore2",
       "remote_username": "{{ user `builder_host_username` }}",
       "remote_password": "{{ user `builder_host_password` }}",
       "ssh_username": "{{ user `guest_username` }}",
