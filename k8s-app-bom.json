@@ -49,7 +49,7 @@
             },
             {
                 "name": "registry.k8s.io/etcd",
-                "version": "3.5.7"
+                "version": "3.5.7-0"
             },
             {
                 "name": "registry.k8s.io/coredns/coredns",
