@@ -3,7 +3,7 @@
         "version": "v0.4.0"
     },
     "antrea": {
-        "gitRepoTag": "v1.27.3",
+        "gitRepoTag": "v1.11.2",
         "containers": [{
             "name": "projects.registry.vmware.com/antrea/antrea-ubuntu",
             "version": "v1.12.0"
