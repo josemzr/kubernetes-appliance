@@ -1,19 +1,19 @@
 {
     "appliance": {
-        "version": "v0.3.0"
+        "version": "v0.4.0"
     },
     "antrea": {
-        "gitRepoTag": "v1.2.0",
+        "gitRepoTag": "v1.27.3",
         "containers": [{
             "name": "projects.registry.vmware.com/antrea/antrea-ubuntu",
-            "version": "v1.2.0"
+            "version": "v1.12.0"
         }]
     },
     "csi": {
-        "gitRepoTag": "v0.0.21",
+        "gitRepoTag": "v1.27.3",
         "containers": [{
                 "name": "rancher/local-path-provisioner",
-                "version": "v0.0.21"
+                "version": "v0.0.24"
             },
             {
                 "name": "gcr.io/google-containers/busybox",
@@ -22,22 +22,22 @@
         ]
     },
     "kubernetes": {
-        "gitRepoTag": "v1.21.5",
+        "gitRepoTag": "v1.27.3",
         "containers": [{
-                "name": "k8s.gcr.io/kube-apiserver",
-                "version": "v1.21.5"
+                "name": "registry.k8s.io/kube-apiserver",
+                "version": "v1.27.3"
             },
             {
-                "name": "k8s.gcr.io/kube-controller-manager",
-                "version": "v1.21.5"
+                "name": "registry.k8s.io/kube-controller-manager",
+                "version": "v1.27.3"
             },
             {
-                "name": "k8s.gcr.io/kube-scheduler",
-                "version": "v1.21.5"
+                "name": "registry.k8s.io/kube-scheduler",
+                "version": "v1.27.3"
             },
             {
-                "name": "k8s.gcr.io/kube-proxy",
-                "version": "v1.21.5"
+                "name": "registry.k8s.io/kube-proxy",
+                "version": "v1.27.3"
             },
             {
                 "name": "k8s.gcr.io/pause",
@@ -48,12 +48,12 @@
                 "version": "3.5"
             },
             {
-                "name": "k8s.gcr.io/etcd",
-                "version": "3.4.13-0"
+                "name": "registry.k8s.io/etcd",
+                "version": "3.5.7"
             },
             {
-                "name": "k8s.gcr.io/coredns/coredns",
-                "version": "v1.8.0"
+                "name": "registry.k8s.io/coredns/coredns",
+                "version": "v1.9.3"
             }
         ]
     }
