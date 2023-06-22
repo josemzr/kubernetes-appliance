@@ -3,7 +3,7 @@
     "password":
         {
             "crypted": false,
-            "text": "##FILL-IN-SECURE-PASSWORD##"
+            "text": "VMware1!"
         },
     "disk": "/dev/sda",
     "packagelist_file": "packages_minimal.json",
