@@ -32,6 +32,7 @@ tdnf install -y \
   awk \
   tar \
   jq \
+  apparmor-utils \
   sshpass
 
 echo '> Adding K8s Repo'
